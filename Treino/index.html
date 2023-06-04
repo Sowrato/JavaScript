@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <section>
+        <main>
+            <h1>Calculadora</h1>
+
+            <div id="res">
+                <p id="p">3 + 4 = 7</p>
+            </div>
+
+            <div id="soma" class="operadores" onclick="mais()"><p>+</p>
+            </div>
+            <div id="sub" class="operadores" onclick="menos()"><p>-</p>
+            </div>
+            <div id="mult" class="operadores" onclick="vezes()"><p>*</p>
+            </div>
+            <div id="div" class="operadores" onclick="dividir()"><p>/</p>
+            </div>
+            
+            <div class="number" onclick="sete()">7</div>
+            <div class="number" onclick="oito()">8</div>
+            <div class="number" onclick="nove()">9</div>
+            <div class="number" onclick="quatro()">4</div>
+            <div class="number" onclick="cinco()">5</div>
+            <div class="number" onclick="seis()">6</div>
+            <div class="number" onclick="um()">1</div>
+            <div class="number" onclick="dois(0)">2</div>
+            <div class="number" onclick="tres()">3</div>
+
+            <div id="limpar" onclick="limpar()">Limpar</div>
+            <div id="resultado" onclick="resultado()">Resultado</div>
+        </main>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
